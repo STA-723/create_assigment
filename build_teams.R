@@ -1,7 +1,7 @@
 library(ghclass)
 library(tidyverse)
 
-github_set_token("8c74805bff0807ae92306e41bc34bf00d5be5dd5")
+github_set_token("")
 github_test_token()
 
 org <- "STA-723"
