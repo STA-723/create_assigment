@@ -13,7 +13,6 @@ grade_item_template <- "Case-Study-2"
 `%notin%` <- Negate(`%in%`)
 members = org_members(org)
 students = members[members %notin% c("fedfer","fanbuduke17")]
-students = c("fedfer","fanbuduke17")
 
 # create random teams (change seed after each case study)
 set.seed(2)
