@@ -1,11 +1,11 @@
 library(ghclass)
 library(tidyverse)
 
-org <- "sta199-sp20-001"
-roster <- read_csv("roster.csv")
+org <- "STA-723"
+# roster <- read_csv("roster.csv")
 
 # set and check token
-github_set_token("")
+github_set_token("8c74805bff0807ae92306e41bc34bf00d5be5dd5")
 github_test_token()
 
 # send invites to users
